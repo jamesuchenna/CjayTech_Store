@@ -33,9 +33,9 @@ namespace Catalogue.API.Repository
                 && deleteResult.DeletedCount > 0;
         }
 
-        public Task<Product> GetProduct(string id)
+        public async Task<Product> GetProduct(string id)
         {
-            throw new NotImplementedException();
+            return await _context.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Product>> GetProducts()
@@ -50,6 +50,8 @@ namespace Catalogue.API.Repository
 
         public async Task<IEnumerable<Product>> GetProductsByName(string name)
         {
+            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(p => p.Name, name);
+            
             return await _context.Products.Find(p => p.Name == name).ToListAsync();
         }
 
