@@ -6,7 +6,7 @@ using Ordering.Domain.Models;
 
 namespace Ordering.Application.Mapping
 {
-    class MappingProfiles : Profile
+    public class MappingProfiles : Profile
     {
         public MappingProfiles()
         {
