@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System;
 using System.Threading.Tasks;
+using CjayTech.Extensions;
 
 namespace CjayTech.UI.Services
 {
