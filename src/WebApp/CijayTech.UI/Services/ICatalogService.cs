@@ -1,4 +1,4 @@
-﻿using CjayTech.UI.Model;
+﻿using AspnetRunBasics.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

@@ -1,4 +1,4 @@
-﻿using CjayTech.UI.Model;
+﻿using AspnetRunBasics.Model;
 using CjayTech.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

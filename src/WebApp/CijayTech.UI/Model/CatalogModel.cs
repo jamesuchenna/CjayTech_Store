@@ -1,4 +1,4 @@
-﻿namespace CjayTech.UI.Model
+﻿namespace AspnetRunBasics.Model
 {
     public class CatalogModel
     {

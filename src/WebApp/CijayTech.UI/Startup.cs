@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 
-namespace AspnetRunBasics
+namespace CjayTech.UI
 {
     public class Startup
     {

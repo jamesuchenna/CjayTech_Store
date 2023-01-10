@@ -1,4 +1,4 @@
-﻿using CjayTech.UI.Model;
+﻿using AspnetRunBasics.Model;
 using System.Net.Http;
 using System;
 using System.Threading.Tasks;

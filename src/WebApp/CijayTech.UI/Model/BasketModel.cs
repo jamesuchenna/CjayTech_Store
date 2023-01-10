@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CjayTech.UI.Model
+namespace AspnetRunBasics.Model
 {
     public class BasketModel
     {
